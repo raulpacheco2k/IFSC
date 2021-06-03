@@ -6,11 +6,11 @@ public class squareArea {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Dada determinada unidade de medida, informe o lado A do quadrado.");
+        System.out.println("Type one side of the square. ");
 
         squareArea = scanner.nextFloat();
         squareArea = Math.pow(squareArea, 2);
 
-        System.out.println("A área do quadrado é " + squareArea);
+        System.out.println("The square area is " + squareArea);
     }
 }
