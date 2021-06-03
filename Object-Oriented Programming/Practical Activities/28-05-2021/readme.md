@@ -1,6 +1,6 @@
 Course: Systems Analysis and Development <br>
 Discipline: Object-Oriented Programming <br>
-Date: 28/05/2021. <br>
+Date: 28/05/2021 <br>
 Teacher: Roberval Silva Bett
 
 ### Practical Activity
