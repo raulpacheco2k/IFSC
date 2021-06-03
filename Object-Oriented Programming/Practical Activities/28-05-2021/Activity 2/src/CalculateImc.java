@@ -10,23 +10,23 @@ public class CalculateImc {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Informe o nome:");
+        System.out.println("What is your name? ");
         name = scanner.next();
 
-        System.out.println("Informe o género:");
+        System.out.println("What is your gender?");
         gender = scanner.next();
 
-        System.out.println("Informe a cor dos olhos:");
+        System.out.println("What color are your eyes?");
         eyeColor = scanner.next();
 
-        System.out.println("Informe a altura:");
+        System.out.println("What is your height?");
         height = scanner.nextFloat();
 
-        System.out.println("Informe o peso:");
+        System.out.println("What is your weight? ");
         weight = scanner.nextFloat();
 
         Person person = new Person(name, gender, eyeColor, height, weight);
 
-        System.out.println("O cálculo do IMC é " + person.imc());
+        System.out.println("The calculation of BMI is" + person.imc());
     }
 }
