@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raulpacheco/development/Projects/IFSC/Data structure/Lista encadeada/1.c
+stdio.h
+-
+stdlib.h
+-
+
+/home/raulpacheco/development/Projects/IFSC/Data structure/Lista encadeada/2.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/raulpacheco/development/Projects/IFSC/Data structure/Lista encadeada/3.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
