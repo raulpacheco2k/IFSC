@@ -1,3 +1,7 @@
+// Implemente uma função que retorne o último valor de uma lista
+// encadeada de inteiros. Essa função deve obedecer ao protótipo:
+// int ultimo (Lista* l);
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
