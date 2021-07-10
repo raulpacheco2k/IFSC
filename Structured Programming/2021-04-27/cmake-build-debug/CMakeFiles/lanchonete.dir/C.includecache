@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/Client.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/Menu.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/Product.h
+../structs/productTypes.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/structs/productTypes.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/Sale.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/SalesProducts.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/includes.h
+stdio.h
+-
+stdlib.h
+-
+windows.h
+-
+../structs/Client.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/structs/Client.h
+../structs/Product.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/structs/Product.h
+../structs/Sale.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/structs/Sale.h
+../structs/SalesProducts.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/structs/SalesProducts.h
+Client.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/Client.h
+Product.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/Product.h
+Sale.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/Sale.h
+SalesProducts.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/SalesProducts.h
+Menu.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/Menu.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/main.c
+libs/includes.h
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/libs/includes.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/structs/Client.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/structs/Product.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/structs/Sale.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/structs/SalesProducts.h
+
+C:/Users/attus/Documents/Progamacao estruturada/lanchonete/structs/productTypes.h
+

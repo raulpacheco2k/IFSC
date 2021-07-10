@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    
+    char caracters[20] = "Panelha velha é a qu";
+    printf("O sétimo caracter é: %c", caracters[7]);
+
+    return 0;
+}

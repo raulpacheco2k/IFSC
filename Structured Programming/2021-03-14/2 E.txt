@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    float array[9] = {4.4, 1.3, 5.3, 6.5, 9.3, 1, 1.4, 9.9, 1.0},
+    menor = array[0],
+    maior = array[0];
+ 
+    for(int i = 0; i < 9; i++){
+       if(array[i] > maior){
+         maior =array[i];
+       }
+      if(array[i] < menor){ 
+         menor = array[i];
+      }
+    }
+ 
+    printf("O maior número é: %.2f \n", maior);
+    printf("O menor número é %.2f \n", menor);
+
+    return 0;
+}
+  

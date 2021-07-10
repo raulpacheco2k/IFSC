@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    
+    float array[12] = {3.2, 3.1, 6.4, 6.1, 7.4, 4.1, 4.6, 62.1, 8.1, 5.9, 7.6};
+    float soma = 0;
+    for(int x = 0; x < 12; x++){
+       soma += array[x];
+    }
+    printf("Soma %.2f", soma); 
+
+    return 0;
+}
