@@ -18,8 +18,8 @@ Nesta prova tivemos que criar uma interface gráfica do utilizador (GUI) utiliza
 5. Sabe-se que o servidor é “um tipo de” pessoa;
 6. Deve-se permitir a qualquer momento imprimir todos os servidores cadastrados;
 7. Deve-se utilizar:
-   1. Herança
-   2. Encapsulamento
-   3. Polimorfismo
+   1. Herança;
+   2. Encapsulamento;
+   3. Polimorfismo;
    4. Abstração;
-   5. Divisão de responsabilidades (camadas bo e view);
+   5. Divisão de responsabilidades (Camadas BO e View).
