@@ -1,0 +1,17 @@
+1 – Diferencie erro, falha e defeito.
+R: Uma pessoa pode cometer um erro que leva à introdução de um defeito no software, a execução de um código defeituoso causa uma falha.
+
+2 – Após o teste um software pode ser considerado livre de defeitos?
+R: Não o teste somente a presença de bugs, não a sua ausência.
+
+3 – O que são casos de teste? Por que são importantes?
+R: Quando desenhamos os casos de teste temos uma maior cobertura dos cenários possíveis.
+
+4 – É possível criar casos de teste antes de começar a desenvolver um software?
+R: Desde que já estabelecido regras de negócio, sim!
+
+5 – É recomendável que o teste de um software não seja feito pelo programador. Justifique.
+R: Depende. Se estamos falando de teste unitários, sim, conforme o que o programador vai desenvolvendo ele já vai escrevendo testes unitários, mas, não devem passar disso, teste de integração e sistemas é de responsabilidade do time de qualidade.
+
+6 – Diferencie validação e verificação de software.
+R: A verificação é um processo que garante o software concorda com as especificações estabelecidas pelo cliente e a validação é o processo de testar o software para confirmar que as especificações estão funcionando como deveriam.
