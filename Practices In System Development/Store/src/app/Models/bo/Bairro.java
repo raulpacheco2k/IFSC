@@ -1,6 +1,7 @@
 package app.Models.bo;
+
 public class Bairro {
-    
+
     private int idBairro;
     private String descricaoBairro;
 
@@ -11,7 +12,7 @@ public class Bairro {
         this.idBairro = idBairro;
         this.descricaoBairro = descricaoBairro;
     }
-    
+
     public int getIdBairro() {
         return idBairro;
     }
@@ -32,5 +33,5 @@ public class Bairro {
     public String toString() {
         return this.getIdBairro() + "," + this.getDescricaoBairro();
     }
-     
+
 }

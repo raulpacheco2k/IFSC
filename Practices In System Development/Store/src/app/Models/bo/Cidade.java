@@ -1,6 +1,7 @@
 package app.Models.bo;
+
 public class Cidade {
-    private int  idCidade;
+    private int idCidade;
     private String descricaoCidade;
     private String ufCidade;
 
@@ -39,9 +40,8 @@ public class Cidade {
 
     @Override
     public String toString() {
-        return this.getIdCidade() + "," + this.getDescricaoCidade() + ","+this.getUfCidade();
+        return this.getIdCidade() + "," + this.getDescricaoCidade() + "," + this.getUfCidade();
     }
-    
-    
-    
+
+
 }

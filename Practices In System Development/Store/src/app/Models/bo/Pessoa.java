@@ -1,4 +1,5 @@
 package app.Models.bo;
+
 public abstract class Pessoa {
     private String nome;
     private String email;
@@ -15,7 +16,7 @@ public abstract class Pessoa {
         this.endereco = endereco;
     }
 
-    
+
     public String getNome() {
         return nome;
     }
@@ -50,15 +51,14 @@ public abstract class Pessoa {
 
     @Override
     public String toString() {
-        return  this.getNome() + ","+
-                this.getEmail() + ","+
-                this.getEndereco().getCepCep() + ","+
-                this.getEndereco().getBairro()+ ","+
-                this.getEndereco().getCidade()+ ","+
-                this.getEndereco().getLogradouroCep()+ ","+
-                this.getCompleEndereco() ;
+        return this.getNome() + "," +
+                this.getEmail() + "," +
+                this.getEndereco().getCepCep() + "," +
+                this.getEndereco().getBairro() + "," +
+                this.getEndereco().getCidade() + "," +
+                this.getEndereco().getLogradouroCep() + "," +
+                this.getCompleEndereco();
     }
-    
-    
-    
+
+
 }

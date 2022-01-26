@@ -1,14 +1,14 @@
 package app.Services;
 
-import app.Services.InterfaceService;
-import java.util.List;
 import app.Models.DAO.CidadeDAO;
 import app.Models.bo.Cidade;
+
+import java.util.List;
 
 public class CidadeService implements InterfaceService<Cidade> {
 
     @Override
-    public  void salvar(Cidade objeto) {
+    public void salvar(Cidade objeto) {
         CidadeDAO cidadeDAO = new CidadeDAO();
         cidadeDAO.create(objeto);
     }

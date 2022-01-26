@@ -1,10 +1,11 @@
 package app.Models.bo;
+
 public class Endereco {
-  private int idCep;
-  private String cepCep;
-  private String logradouroCep;
-  private Bairro bairro;
-  private Cidade cidade;
+    private int idCep;
+    private String cepCep;
+    private String logradouroCep;
+    private Bairro bairro;
+    private Cidade cidade;
 
     public Endereco() {
     }
@@ -59,13 +60,12 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return  this.getIdCep() + ","+
-                this.getLogradouroCep()+ ","+
-                this.getCepCep()+ ","+
-                this.getCidade().getDescricaoCidade()+ ","+
+        return this.getIdCep() + "," +
+                this.getLogradouroCep() + "," +
+                this.getCepCep() + "," +
+                this.getCidade().getDescricaoCidade() + "," +
                 this.getBairro().getDescricaoBairro() + ",";
     }
-  
-  
-  
+
+
 }

@@ -2,7 +2,7 @@ package app.Models.bo;
 
 import java.util.Date;
 
-public class Cliente extends Pessoa{
+public class Cliente extends Pessoa {
     private int idCliente;
     private Date dtNasc;
     private String cpfCliente;
@@ -13,7 +13,7 @@ public class Cliente extends Pessoa{
     public Cliente() {
     }
 
-    public Cliente(int idClinete,Date dtNasc, String cpfCliente, String rgCliente, String foneCliente, String fone2Cliente, String nome, String email, String compleEndereco, Endereco endereco) {
+    public Cliente(int idClinete, Date dtNasc, String cpfCliente, String rgCliente, String foneCliente, String fone2Cliente, String nome, String email, String compleEndereco, Endereco endereco) {
         super(nome, email, compleEndereco, endereco);
         this.idCliente = idClinete;
         this.dtNasc = dtNasc;
@@ -23,14 +23,14 @@ public class Cliente extends Pessoa{
         this.fone2Cliente = fone2Cliente;
     }
 
-      public int getIdCliente() {
+    public int getIdCliente() {
         return idCliente;
     }
 
     public void setIdCliente(int idCliente) {
         this.idCliente = idCliente;
-    }  
-    
+    }
+
     public Date getDtNasc() {
         return dtNasc;
     }
@@ -73,17 +73,14 @@ public class Cliente extends Pessoa{
 
     @Override
     public String toString() {
-        return  this.getIdCliente() + ","+
-                super.toString() + ","+
-                this.getCpfCliente() + ","+
-                this.getRgCliente() + ","+
-                this.getDtNasc() + ","+
-                this.getFoneCliente() + ","+
+        return this.getIdCliente() + "," +
+                super.toString() + "," +
+                this.getCpfCliente() + "," +
+                this.getRgCliente() + "," +
+                this.getDtNasc() + "," +
+                this.getFoneCliente() + "," +
                 this.getFone2Cliente();
     }
 
 
-    
-    
-    
 }

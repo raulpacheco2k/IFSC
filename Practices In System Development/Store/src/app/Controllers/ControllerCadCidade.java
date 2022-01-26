@@ -1,15 +1,14 @@
 package app.Controllers;
 
-import java.awt.Component;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JComboBox;
-import javax.swing.JFormattedTextField;
-import javax.swing.JTextField;
 import app.Models.bo.Cidade;
 import app.Services.CidadeService;
 import resources.Views.TelaBusCidade;
 import resources.Views.TelaCadCidade;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class ControllerCadCidade implements ActionListener {
 
@@ -42,7 +41,7 @@ public class ControllerCadCidade implements ActionListener {
             ativa(true);
             ligaDesliga(false);
         } else if (acao.getSource() == telaCadCidade.getjButtonGravar()) {
-            
+
             //montar um objeto do tipo cidade
             Cidade cidade = new Cidade();
             cidade.setDescricaoCidade(this.telaCadCidade.getjTFNomeCidade().getText());
