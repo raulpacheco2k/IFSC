@@ -1,1 +1,1 @@
-controller.InterfaceService
+app.Controllers.InterfaceService

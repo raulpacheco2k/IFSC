@@ -1,5 +1,5 @@
-controller
-model.bo
-model.DAO
-service
-view
+app.Controllers
+app.Models.bo
+app.Models.DAO
+app.Services
+resources.Views
