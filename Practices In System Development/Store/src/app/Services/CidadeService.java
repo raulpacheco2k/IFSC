@@ -1,6 +1,6 @@
 package app.Services;
 
-import app.Controllers.InterfaceService;
+import app.Services.InterfaceService;
 import java.util.List;
 import app.Models.DAO.CidadeDAO;
 import app.Models.bo.Cidade;
