@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/products', function () {
+    return view('products');
+});
+
+Route::get('/products/{id}/{productName}', function ($id, $productName) {
+    return view('products')->with([
+        'id' => $id,
+        'productName' => $productName
+    ]);
 });
