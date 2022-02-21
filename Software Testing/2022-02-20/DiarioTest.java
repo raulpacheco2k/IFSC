@@ -11,6 +11,7 @@ public class DiarioTest {
     public DiarioTest() {
     }
 
+    // Partição de equivalência e análise de valor limite nas frequeência <74;>=75
     @Test
     public void testFrequenciaLimiteSuperiorReprovado() {
         this.diario = new Diario(2843734, 74, 10);
@@ -23,15 +24,22 @@ public class DiarioTest {
         assertEquals("APROVADO", diario.situacao());
     }
 
+    // Partição de equivalência e análise de valor limite das notas <3;>=4;>=6
     @Test
     public void testNotaLimiteSuperiorReprovado() {
-        this.diario = new Diario(2843734, 80, 6);
+        this.diario = new Diario(2843734, 80, 3);
         assertEquals("REPROVADO", diario.situacao());
     }
 
     @Test
+    public void testNotaLimiteSuperiorRecuperação() {
+        this.diario = new Diario(2843734, 80, 4);
+        assertEquals("RECUPERAÇÃO", diario.situacao());
+    }
+
+    @Test
     public void testNotaLimiteInferiorAprovado() {
-        this.diario = new Diario(2843734, 80, 7);
+        this.diario = new Diario(2843734, 80, 6);
         assertEquals("APROVADO", diario.situacao());
     }
 }
